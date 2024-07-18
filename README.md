@@ -14,8 +14,8 @@ This project is a web application built with Laravel 11, Vue.js, Inertia.js, and
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
-    cd your-repository
+    git clone https://github.com/Markuz1995/app-visit.git
+    cd app-visit
     ```
 
 2. Install PHP dependencies:
@@ -72,4 +72,10 @@ php artisan serve
 To compile the Vue.js assets, run:
 ```bash
 npm run dev
+```
+
+## Commands
+Command to create visits
+```bash
+php artisan app:create-visit
 ```
